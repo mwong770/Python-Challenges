@@ -36,7 +36,7 @@
     * prints the results to the terminal
     * prints the results to a text file
 
-    ![screenshot of app](/Py-Bank/screenshots/pybank-summary.png)
+    ![screenshot of app](/PyBank/screenshots/pybank-summary.png)
 
 
 ## <a name="developer"></a> :bust_in_silhouette: Developer
