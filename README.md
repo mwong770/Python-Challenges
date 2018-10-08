@@ -3,6 +3,10 @@
 * PyBank
     * A python script that analyzes the financial records of a company
 
+* PyPoll
+    * A python script that analyzes election votes
+
+
 ## Table of Contents
 
 [:computer:  Technologies Used](#technologies-used)
@@ -31,13 +35,20 @@
 ## <a name="features"></a> :boom: Features
 
 * PyBank
-    * reads a csv file to get the profits and losses of a company
+    * reads a csv file to get the monthly profits and losses of a company
     * calculates the total months included, total net profits/losses, greatest increase in profits, greatest decrease in profits, and the average change in profits/losses
     * prints the results to the terminal
     * prints the results to a text file
 
     ![screenshot of app](/PyBank/screenshots/pybank-summary.png)
 
+* PyPoll
+    * reads a csv file to get election vote data, including the voter id, county and candidate chosen
+    * calculates the total number of votes cast, the percentage of votes each candidate won, the total number of votes each candidate won, and the winner of the election based on popular vote
+    * prints the results to the terminal
+    * prints the results to a text file
+
+    ![screenshot of app](/PyPoll/screenshots/pypoll-summary.png)
 
 ## <a name="developer"></a> :bust_in_silhouette: Developer
 
