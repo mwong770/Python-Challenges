@@ -40,7 +40,7 @@
     * prints the results to the terminal
     * prints the results to a text file
 
-    ![screenshot of app](/PyBank/screenshots/pybank-summary.png)
+    ![screenshot of app](/PyBank/screenshots/pybank_summary.png)
 
 * PyPoll
     * reads a csv file to get election vote data, including the voter id, county and candidate chosen
@@ -48,7 +48,7 @@
     * prints the results to the terminal
     * prints the results to a text file
 
-    ![screenshot of app](/PyPoll/screenshots/pypoll-summary.png)
+    ![screenshot of app](/PyPoll/screenshots/pypoll_summary.png)
 
 ## <a name="developer"></a> :bust_in_silhouette: Developer
 
