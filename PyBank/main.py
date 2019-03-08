@@ -53,7 +53,7 @@ with open(file_to_read, newline='') as file_obj:
     # get average net change
     average_net_change = total_net_change / (total_months - 1)
 
-with open(file_to_write_to, "w") as txt_file:
+with open(file_to_write_to, 'w') as txt_file:
 
     summary = (
         '\nFinancial Analysis\n'

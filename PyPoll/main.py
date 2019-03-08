@@ -1,7 +1,7 @@
 import os
 import csv
 
-file_to_read = os.path.join("data", "election_data.csv")
+file_to_read = os.path.join('data', 'election_data.csv')
 file_to_write_to = os.path.join('analysis', 'election_analysis.txt')
 
 total_votes = 0
@@ -29,11 +29,13 @@ with open(file_to_read, newline='') as file_obj:
 
         # add unique candidate to dictionary
         if candidate not in candidate_info:
-            candidate_info[candidate] = {'votes': 1}
+            candidate_info[candidate] = 1
 
         # add vote to respective candidate obj
         else:
-            candidate_info[candidate]['votes'] = candidate_info[candidate]['votes'] + 1
+            candidate_info[candidate] = candidate_info[candidate] + 1
+
+print(candidate_info)
 
 with open(file_to_write_to, 'w') as text_file:
 
@@ -50,8 +52,8 @@ with open(file_to_write_to, 'w') as text_file:
 
     # get the total number and percentage of votes each candidate received
     for candidate in candidate_info:
-        candidate_votes = candidate_info[candidate]["votes"]
-        candidate_percentage = (candidate_info[candidate]["votes"] / total_votes) * 100
+        candidate_votes = candidate_info[candidate]
+        candidate_percentage = (candidate_info[candidate] / total_votes) * 100
         candidate_summary = f'{candidate}:  {candidate_percentage:.3f}% ({candidate_votes})\n'
 
         # print and export candidate vote summary
